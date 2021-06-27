@@ -86,5 +86,5 @@ df2corpus.pro <-function(data, pro.ingles=TRUE, pro.espanol=FALSE, pro.genius=TR
   return(corpus.pro)
 }
 
-corpus = df2corpus.pro(lyrics, pro.stemm = F, pro.ingles = F, pro.espanol = T, idioma_stopwords = "spanish")
+corpus = df2corpus.pro(lyrics, pro.stemm = F)
 inspect(corpus[1])

@@ -17,5 +17,7 @@ corpus.pro2tdm <- function(corpus, ponderacion, n_terms) {
   return(matriz_mf)
 }
 
-matriz <- corpus.pro2tdm(corpus, "weightTfIdf", 1000)
+matriz <- corpus.pro2tdm(corpus, "weightTfIdf", 100000)
 dim(matriz)
+
+
